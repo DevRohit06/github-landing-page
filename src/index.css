@@ -4,5 +4,5 @@
 
 
 body {
-    @apply bg-[#0d1117] 
+    @apply bg-[#0d1117] overflow-x-hidden
 }
