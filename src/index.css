@@ -4,5 +4,13 @@
 
 
 body {
-    @apply bg-[#0d1117] overflow-x-hidden
+    @apply bg-[#0d1117]
+    
+}
+body {
+    font-family: Hubot, sans-serif;
+}
+@font-face {
+    font-family: Hubot;
+    src: url(./assets//fonts/Hubot-Sans-Regular.woff2);
 }

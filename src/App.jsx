@@ -1,8 +1,9 @@
 import Header from "./components/header"
+import { Hero } from "./components/hero"
 export default function App(){
   return (
     <>
-    <div className="relative h-screen overflow-hidden"
+    <div className="relative h-screen overflow-x-hidden"
     >
       
       {/* <img className="absolute md:-top-9 sm:-top-24 inset-0 -z-10 w-full h-[2200px] object-cover object md:object-[65%]
@@ -16,6 +17,7 @@ export default function App(){
         </picture>
       </div>
       <Header/>
+      <Hero/>
     </div>
     </>
   )
